@@ -1,9 +1,9 @@
-# Summer Camp 2018
+# Winter Coding Camp 2019
 
 ## Requirements
 
-You will need the following software installed on your computer for the Summer
-Camp. Please install these before arriving.
+You will need the following software installed on your computer for the Winter
+Coding Camp. Please install these before arriving.
 
 - Visual Studio Code
 - Google Chrome
@@ -65,4 +65,4 @@ the Camp!
 
 ## License
 
-All rights reserved (C) 2018 Green Fox Academy Kft. [greenfoxacademy.com](http://greenfoxacademy.com)
+All rights reserved (C) 2019 Green Fox Academy Kft. [greenfoxacademy.com](http://greenfoxacademy.com)
