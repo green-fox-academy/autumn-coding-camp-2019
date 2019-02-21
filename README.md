@@ -19,6 +19,10 @@ See the system specific detailed instructions below.
 Don't panic if you couldn't install something! We will help you to finish it in
 the Camp!
 
+## Notes
+
+You can check the notes [here](./notes).
+
 ## Schedule
 
 ### Day 1
