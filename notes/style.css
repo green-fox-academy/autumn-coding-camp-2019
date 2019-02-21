@@ -1,0 +1,33 @@
+body {
+  background-color: bisque;
+  align-items: center;
+}
+
+div, h1 {
+  background-color: grey;
+  width: 50vw;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#labrador {
+  background-color: aliceblue;
+}
+
+.nogo {
+  color: red;
+}
+
+img {
+  width: 50vw;
+}
+
