@@ -27,3 +27,10 @@ nevek.forEach((elem, index) => {
     `
   );
 });
+
+
+$('#main').on('click', (event) => {
+  console.log(event);
+  console.log(event.target);
+  $(event.target).css('color', 'red');
+});
