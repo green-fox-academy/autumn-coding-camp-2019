@@ -82,10 +82,10 @@
   - `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>`
 - DOM manipulations with jQuery
   - `$(selector).action();`
-  - `.val()`
-  - `.val(content)`
+  - `.text()`
+  - `.text(content)`
     ```javascript
-    $('h1').val('Hello World!');
+    $('h1').text('Hello World!');
     ```
   - `.append(HTML)`
     ```javascript
