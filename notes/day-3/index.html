@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <input type="text" id="racerName">
+    <input type="number" id="roundTime">
+    <button type="submit" id="kattincsButton">Kattincs!</button>
+  </form>
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="table">Versenyzo neve</th>
+        <th class="table">Korido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="racer">Versenyzo 1</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Versenyzo 2</td>
+        <td>7</td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB32nm2e65KmTX25lVJbmyqubIQBAMWXFI",
+      authDomain: "blogprozse.firebaseapp.com",
+      databaseURL: "https://blogprozse.firebaseio.com",
+      projectId: "blogprozse",
+      storageBucket: "blogprozse.appspot.com",
+      messagingSenderId: "844072980108"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="index.js"></script>
+</body>
+
+</html>
