@@ -2,7 +2,7 @@
 
 ## Requirements
 
-You will need the following software installed on your computer for the Winter
+You will need the following software installed on your computer for the Autumn
 Coding Camp. Please install these before arriving.
 
 - Visual Studio Code
