@@ -1,4 +1,4 @@
-# Winter Coding Camp 2019
+# Autumn Coding Camp 2019
 
 ## Requirements
 
