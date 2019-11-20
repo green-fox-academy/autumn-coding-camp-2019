@@ -21,7 +21,7 @@ the Camp!
 
 ## Notes
 
-You can check the notes [here](./notes) and the screencast [here](https://youtu.be/CetGGV0_VRc). 
+You can check the notes [here](./notes). 
 
 ## Schedule
 
