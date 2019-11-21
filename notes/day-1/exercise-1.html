@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Első nap</title>
+    <style>
+        body, h1 {
+            margin: 0;
+            padding: 10px;
+            font-size: 10px;
+            background-color: lightblue;
+        }
+        #main {
+            background-color: rgba(255,255,255,0.5);
+        }
+
+        h1 {
+            font-size: 1.6em;
+        }
+
+        p {
+            background-color: #1c242c;
+        }
+
+        #brown-h2 {
+            background-color: brown;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+
+
+        .frame {
+            color: white;
+            font-size: 28px;
+            margin: 10px;
+            height: 600px;
+            border: 2px solid blue;
+            padding-left: 10px;
+            padding-top: 15px;
+            padding-right: 25px;
+            padding-bottom: 20px;
+            background-color: red;
+            background-image: url('images/the-duck.png');
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: 100px;
+        }
+
+        .frame:hover {
+            background-color: lightcoral;
+        }
+
+        .border-frame {
+            box-sizing: border-box;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-width: 4px;
+            border-style: solid;
+            border-color: chocolate;
+            border-left-color: blue;
+            padding: 10px 15px;
+            background-color: red;
+        }
+
+        .another-padding {
+            padding: 15px 20px 20px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main">
+        Főcím
+    </h1>
+
+    <p>
+        Valamilyen szöveg
+    </p>
+
+    <h2 class="yellow">
+            Főcím
+    </h2>
+    <h2 id="brown-h2">
+        Főcím
+    </h2>
+    <h2 class="yellow">
+        Főcím
+    </h2>
+
+    <div class="frame">
+        Keretet kap
+    </div>
+
+    <div class="border-frame">
+        Keretet kap
+    </div>
+
+    <div class="border-frame another-padding">
+        Keretet kap
+    </div>
+
+
+<!--
+  Ezt csak úgy írtam  
+-->
+    <h2 id="main2">
+        Alcím
+    </h2>
+    <div>
+        Ez egy doboz
+        <br>
+        <br>
+    
+    
+    
+        <div>
+            Ez egy belső doboz
+            <span>AAA</span>
+        </div>
+    </div>
+    
+    
+    
+    <p id="introduction">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   
+    </p>
+    
+    <a href="http://facebook.com" target="_blank">
+        Ezzel a Facebookra megy az oldal
+    </a>
+    
+    <a href="another.html">
+        Ez megy a másik oldalra
+    </a>
+    
+    <ul>
+        <li>
+            1kg rizst
+        </li>
+        <li>
+            1l tej
+        </li>
+        <li>
+            1db kalács
+        </li>
+    </ul>
+    
+    <ol>
+        <li>
+            1kg rizst
+        </li>
+        <li>
+            1l tej
+        </li>
+        <li>
+            1db kalács
+        </li>
+    </ol>
+
+    <form>
+        <div>
+            <input type="checkbox" id="promotion" checked>
+            <label for="promotion">Kérek sok reklámot</label>    
+        </div>
+        <fieldset>
+            <legend>Szövegek</legend>
+            <div>
+                <label>A teljes neved:</label>
+                <input pattern="[A-Za-z]{3}" type="text" placeholder="Név" required>
+            </div>
+
+            <input type="password">
+
+            <div>
+                <label>Email:</label>
+                <input type="email" required>
+            </div>
+
+            <div>
+                <label>Néhány sorban írd le a véleményedet</label><br>
+                <textarea rows="5" placeholder="Bemutató szöveg">Például nem tetszik a bolt</textarea>
+            </div>
+        </fieldset>
+        <input type="button" value="Ez egy gomb">
+        <input type="submit" value="Küldés"><br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">nő</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">férfi</label>
+        
+        
+    </form>
+    
+    <img src="images/the-duck.png" alt="Egy kacsa látható a képen">
+    
+      
+</body>
+</html>
