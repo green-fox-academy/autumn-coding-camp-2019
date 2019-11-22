@@ -1,0 +1,36 @@
+
+.tomato {
+    background-color: tomato;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .grey {
+    background-color: grey;
+  }
+  
+  div {
+    width: 200px;
+    background-image: url(./the-duck.png);
+    background-repeat: no-repeat;
+  }
+  
+  .small-box {
+    height: 100px;
+    background-size: 30px;
+    background-position-y: center;
+  }
+  
+  .medium-box {
+    background-size: 40%;
+    height: 150px;
+    background-position: center;
+  }
+  
+  .large-box {
+    height: 200px;
+    background-size: 20%;
+    background-position: bottom right;
+  }

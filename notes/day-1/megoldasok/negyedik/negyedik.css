@@ -1,0 +1,14 @@
+h2{
+    color: purple;
+}
+
+h1{
+    color: orange;
+}
+ol li{
+    color: pink;
+}
+
+ol li:last-child{
+    color:black;
+}
