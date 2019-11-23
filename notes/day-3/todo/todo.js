@@ -50,10 +50,9 @@ $('#gomb').on('click', () => {
     $('.todocount').text(count);
 });
 
-
-
-
-$('.todocount').text(count);
+if(count > 0) {
+    $('.todocount').text(count);
+}
 
 function addTodoToList(todo) {
     let html = `
