@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+</head>
+<body>
+    <h1>My simple Todo list</h1>
+    <h2>Todos:</h2>
+    <h3 class="todocount"></h3>
+    <ul></ul>
+
+
+    <button id="gomb">Add todo</button>
+    <input id="ertek" type="text">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDqew6-BxfSPwDBoYoztaGOP8ZIL8BTUT0",
+            authDomain: "petike-todos.firebaseapp.com",
+            databaseURL: "https://petike-todos.firebaseio.com",
+            projectId: "petike-todos",
+            storageBucket: "petike-todos.appspot.com",
+            messagingSenderId: "927535579914",
+            appId: "1:927535579914:web:6fec84d2a32ef3bd0a70f3",
+            measurementId: "G-NPVF83KMEG"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+
+        let database = firebase.database();
+    </script>
+
+    <script src="todo.js"></script>
+</body>
+</html>
