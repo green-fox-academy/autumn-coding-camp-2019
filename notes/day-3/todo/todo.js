@@ -37,7 +37,7 @@ database.ref(refName).once('value').then(data => {
 // let tennivalok = ['valami', 'Buy milk', 'Walk the dog', 'Go to party'];
 
 // Ha megnyomom a gombot
-$('#gomb').on('click', (event) => {
+$('#gomb').on('click', () => {
     let todoToAdd = $('#ertek').val();
 
     addTodoToList(todoToAdd);
